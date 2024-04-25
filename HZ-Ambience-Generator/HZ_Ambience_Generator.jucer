@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="QhZxPg" name="HZ_Ambience_Generator" projectType="guiapp"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1" version="1.0.3" companyName="Hanzhi Zhang"
+              companyWebsite="www.hanzhizhang.com">
+  <MAINGROUP id="pf4mRY" name="HZ_Ambience_Generator">
+    <GROUP id="{82A62592-CE32-8029-B002-253434131A4C}" name="Source">
+      <FILE id="cOxeyW" name="Binary_File_1_mono.wav" compile="0" resource="1"
+            file="Source/Binary_File_1_mono.wav"/>
+      <FILE id="WtMGxC" name="Binary_File_2_mono.wav" compile="0" resource="1"
+            file="Source/Binary_File_2_mono.wav"/>
+      <FILE id="CS0hIs" name="WhiteNoise_Image.png" compile="0" resource="1"
+            file="Source/WhiteNoise_Image.png"/>
+      <FILE id="QB89Eu" name="Binary_Image_2.png" compile="0" resource="1"
+            file="Source/Binary_Image_2.png"/>
+      <FILE id="KOZkjq" name="Binary_Image_1.png" compile="0" resource="1"
+            file="Source/Binary_Image_1.png"/>
+      <FILE id="nIQ9Xf" name="Noise_Generator.cpp" compile="1" resource="0"
+            file="Source/Noise_Generator.cpp"/>
+      <FILE id="bBYHIs" name="Noise_Generator.h" compile="0" resource="0"
+            file="Source/Noise_Generator.h"/>
+      <FILE id="oLJriK" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="Khtiy1" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="xmWTcj" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="HZ_Ambience_Generator"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="HZ_Ambience_Generator"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="HZ_Ambience_Generator"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="HZ_Ambience_Generator"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="/Users/hanzhizhang/Library/Mobile Documents/com~apple~CloudDocs/Desktop/C++_Assignments/Juce/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
